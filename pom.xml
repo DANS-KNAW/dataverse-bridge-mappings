@@ -119,7 +119,7 @@
       <properties>
         <xsl.base.url>http://localhost:8592/api/v1/xsl/${easy.plugin.name}</xsl.base.url>
         <easy.dar.iri>http://deasy.dans.knaw.nl/sword2/collection/1</easy.dar.iri>
-        <dataverse.source.metadata.base.url>http://ddvn.dans.knaw.nl:8080/api</dataverse.source.metadata.base.url>
+        <dataverse.source.metadata.base.url>http://localhost:8080/api</dataverse.source.metadata.base.url>
         <b2share.source.metadata.base.url>http://localhost:5000/api/records</b2share.source.metadata.base.url>
       </properties>
     </profile>
