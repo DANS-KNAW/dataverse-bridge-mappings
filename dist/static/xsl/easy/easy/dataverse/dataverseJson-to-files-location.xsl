@@ -13,7 +13,7 @@
   <xsl:template match="/" xpath-default-namespace="http://www.w3.org/2005/xpath-functions">
     <files>
       <xsl:variable name="dataverseApiBaseUrl">
-        <xsl:value-of select="'http://ddvn.dans.knaw.nl:8080/api'"/>
+        <xsl:value-of select="'http://localhost:8080/api'"/>
       </xsl:variable>
       <file restricted="false" size="10122004">
         <xsl:attribute name="url">
